@@ -1,0 +1,12 @@
+{
+  "hello": "Hola",
+  "language": "Idioma",
+  "locales": {
+    "en": "Inglés",
+    "es": "Español",
+    "de": "Alemán"
+  },
+  "copy": "Copiar",
+  "by": "Por",
+  "select": "Seleccionar"
+}

@@ -1,0 +1,12 @@
+{
+  "hello": "Hello",
+  "language": "Language",
+  "locales": {
+    "en": "English",
+    "es": "Spanish",
+    "de": "German"
+  },
+  "copy": "Copy",
+  "by": "By",
+  "select": "Select"
+}
