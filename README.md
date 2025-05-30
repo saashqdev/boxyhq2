@@ -1,6 +1,6 @@
 # BoxyHQ Starter Kit 2
 
-## A BoxyHQ Starter Kit featuring the latest Nextjs 15 features including App Router.
+### A BoxyHQ Starter Kit featuring the latest Nextjs 15 features including App Router.
 
 Start from scratch but not from zero:
 
