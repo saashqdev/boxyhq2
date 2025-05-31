@@ -10,6 +10,6 @@ Start from scratch but not from zero:
 - [i18n](https://www.i18next.com/)
 
 
-### Looking for a full SaaS starter kit?
+### Looking for a full PaaS/SaaS starter kit?
 
-Check out [Intake](https://intake.ca/?ref=intake)!
+Check out [Intake](https://intake.ca/?ref=intake)! Transform a VM into a full PaaS platform!
