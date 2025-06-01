@@ -71,7 +71,7 @@ export default function LandingPage() {
             </pre>
             <div className="flex justify-between text-sm text-muted-foreground">
               <div className="flex items-center space-x-2 font-medium">
-                The BoxyHQ Starter Kit running the latest Nextjs 15 features including App Router.
+                BoxyHQ Starter Kit running the latest Nextjs 15 features including App Router.
               </div>
             </div>
           </div>
@@ -83,15 +83,20 @@ export default function LandingPage() {
                 href="#"
                 className="h-12 rounded-md border border-border bg-background p-3 text-primary hover:bg-secondary/90 hover:text-secondary-foreground"
               >
-                <div className="flex justify-center text-sm font-medium">SSO Login</div>
+                <div className="flex justify-center text-sm font-medium">Sign up</div>
               </Link>
               <Link
                 href="#"
                 className="h-12 rounded-md border border-border bg-background p-3 text-primary hover:bg-secondary/90 hover:text-secondary-foreground"
               >
-                <div className="flex justify-center text-sm font-medium">Setup BoxyHQ Server</div>
+                <div className="flex justify-center text-sm font-medium">Log in</div>
               </Link>              
-              <div className="h-12 rounded-md border border-dashed border-border bg-secondary p-3 text-primary opacity-50"></div>
+              <Link
+                href="https://github.com/saashqdev/boxyhq2/wiki/BoxyHQ-Server-Setup"
+                className="h-12 rounded-md border border-border bg-background p-3 text-primary hover:bg-secondary/90 hover:text-secondary-foreground"
+              >
+                <div className="flex justify-center text-sm font-medium">Setup BoxyHQ</div>
+              </Link>              
             </div>
           </div>
         </div>
