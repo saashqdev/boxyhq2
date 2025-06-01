@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import { useToast } from "../ui/use-toast";
+import { toast } from "sonner";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import GitHubIcon from "../ui/icons/GitHubIcon";
@@ -13,7 +13,6 @@ const GITHUB_URL = "https://github.com/saashqdev/boxyhq2.git";
 
 export default function LandingPage() {
   const { t } = useTranslation();
-  const { toast } = useToast();
   return (
     <div className="min-h-screen">
       <div className="mx-auto max-w-2xl space-y-6 p-4 py-8 sm:py-16">
@@ -56,9 +55,13 @@ export default function LandingPage() {
                 className="absolute right-1 top-1 rounded-lg bg-primary text-primary-foreground"
                 onClick={() => {
                   navigator.clipboard.writeText(`git clone ${GITHUB_URL}`);
-                  toast({
-                    title: "Copied to clipboard",
-                  });
+                  toast("URL has been copied", {
+                    description: "Sunday, December 03, 2024 at 9:00 AM",
+                    action: {
+                      label: "Undo",
+                      onClick: () => console.log("Undo"),
+                    },
+                  })
                 }}
               >
                 {t("copy")}
