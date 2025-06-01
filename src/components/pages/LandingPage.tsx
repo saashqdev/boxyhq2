@@ -10,6 +10,7 @@ import LocaleSelector from "../ui/selectors/LocaleSelector";
 import ThemeSelector from "../ui/selectors/ThemeSelector";
 
 const GITHUB_URL = "https://github.com/saashqdev/boxyhq2.git";
+const now = new Date();
 
 export default function LandingPage() {
   const { t } = useTranslation();
@@ -56,7 +57,7 @@ export default function LandingPage() {
                 onClick={() => {
                   navigator.clipboard.writeText(`git clone ${GITHUB_URL}`);
                   toast("URL has been copied", {
-                    description: "Sunday, December 03, 2024 at 9:00 AM",
+                    description: `${now}`,
                     action: {
                       label: "Undo",
                       onClick: () => console.log("Undo"),
