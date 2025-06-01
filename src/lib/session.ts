@@ -52,7 +52,7 @@ export async function getUserInfo(): Promise<UserSession> {
   };
 }
 
-export async function setUserSession(userSession: UserSession) {
+export async function setUserSession(userSession: UserSession, p0: string) {
   const cookieStore = await cookies();
   const token = jwt.sign(userSession, SESSION_SECRET, { expiresIn: "30d" });
   const serializedSession = serialize(SESSION_COOKIE_NAME, token, {

@@ -76,11 +76,17 @@ export default function LandingPage() {
             <h3 className="text-sm font-bold">Demos</h3>
             <div className="grid grid-cols-3 gap-4">
               <Link
-                href="https://boxyhq2.vercel.app/sso"
+                href="#"
                 className="h-12 rounded-md border border-border bg-background p-3 text-primary hover:bg-secondary/90 hover:text-secondary-foreground"
               >
                 <div className="flex justify-center text-sm font-medium">SSO Login</div>
               </Link>
+              <Link
+                href="#"
+                className="h-12 rounded-md border border-border bg-background p-3 text-primary hover:bg-secondary/90 hover:text-secondary-foreground"
+              >
+                <div className="flex justify-center text-sm font-medium">Setup BoxyHQ Server</div>
+              </Link>              
               <div className="h-12 rounded-md border border-dashed border-border bg-secondary p-3 text-primary opacity-50"></div>
             </div>
           </div>
