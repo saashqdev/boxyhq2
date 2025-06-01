@@ -12,4 +12,4 @@ Start from scratch but not from zero:
 
 ### Looking for a full PaaS/SaaS starter kit?
 
-Check out [Intake](https://intake.ca/?ref=intake)! Coming Soon to a VM near you! Transform a VM into a full PaaS platform.
+Check out [Intake](https://gointake.ca/)! Coming Soon to a VM near you! Transform a VM into a full PaaS platform.
